@@ -7,3 +7,7 @@ nltk
 wordcloud
 matplotlib
 gtts
+pandas
+plotly
+numpy
+aiohttp
