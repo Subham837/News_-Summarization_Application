@@ -1,0 +1,9 @@
+gradio
+requests
+beautifulsoup4
+transformers
+torch
+nltk
+wordcloud
+matplotlib
+gtts
