@@ -1,0 +1,110 @@
+# AI News Summarization & Sentiment Analyzer with TTS
+
+## 1. Introduction
+The AI News Summarization & Sentiment Analyzer with TTS is an advanced tool designed to extract, summarize, and analyze news articles while providing sentiment analysis and text-to-speech conversion. This project is deployed on Hugging Face Spaces and integrates web scraping, NLP models, and API-based functionalities to deliver structured news insights.
+
+## 2. Project Setup
+
+### **2.1 Prerequisites**
+Ensure you have the following installed:
+- Python (>=3.8)
+- Pip and Virtual Environment (`venv`)
+- Required libraries:
+  ```sh
+  pip install transformers torch beautifulsoup4 requests flask gtts pydub
+  ```
+
+### **2.2 Installation Steps**
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-repo/news-analyzer.git
+   cd news-analyzer
+   ```
+2. Create and activate a virtual environment:
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+   ```
+3. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. Run the application:
+   ```sh
+   python app.py
+   ```
+
+## 3. Model Details
+
+### **3.1 Summarization Model**
+- Uses **T5/BART transformers** for abstractive summarization.
+- Extracts key information while maintaining readability.
+
+### **3.2 Sentiment Analysis Model**
+- Uses a **BERT-based classifier** to detect sentiment (Positive, Neutral, Negative).
+- Provides insights into how news articles might impact public opinion.
+
+### **3.3 Text-to-Speech (TTS) Model**
+- Implements **Google Text-to-Speech (gTTS)** for Hindi audio output.
+- Converts summarized text into speech for enhanced accessibility.
+
+## 4. API Development
+The application includes API endpoints for processing news articles:
+
+### **4.1 API Endpoints**
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/summarize` | POST | Accepts article text and returns a summarized version. |
+| `/sentiment` | POST | Analyzes sentiment of the article. |
+| `/tts` | POST | Converts text to Hindi speech. |
+
+### **4.2 API Testing**
+- Use **Postman** or `cURL` to test the API:
+  ```sh
+  curl -X POST "http://127.0.0.1:5000/summarize" -H "Content-Type: application/json" -d '{"text": "Your news article here"}'
+  ```
+
+## 5. API Usage
+
+### **5.1 Third-Party APIs**
+- **BeautifulSoup**: Used for web scraping to extract news content from websites.
+- **gTTS API**: Converts summarized text to speech.
+- **Hugging Face Transformers API**: Supports summarization and sentiment analysis models.
+
+## 6. Assumptions & Limitations
+
+### **6.1 Assumptions**
+1. Articles are well-structured and contain meaningful content.
+2. Sentiment analysis works accurately on English text.
+3. Web scraping works unless restricted by the target website.
+4. API services used are stable and functional over time.
+
+### **6.2 Limitations**
+1. Sentiment analysis may inherit biases from training data.
+2. Limited language support (English for text, Hindi for TTS output).
+3. Web scraping may fail if websites change structure or implement anti-scraping measures.
+4. Processing large datasets may introduce latency.
+
+## 7. Evaluation Criteria
+
+1. **Correctness**: Ensures accurate extraction, summarization, and sentiment analysis.
+2. **Efficiency**: Optimized processing times for summarization, sentiment analysis, and TTS conversion.
+3. **Robustness**: Error handling for API failures, empty input, and malformed data.
+4. **Deployment**: Successfully deployed on Hugging Face Spaces ([Check Here](https://huggingface.co/spaces/Subham629/news)).
+5. **Code Quality**: Well-structured, modular, and documented codebase.
+
+## 8. Deployment on Hugging Face Spaces
+
+### **8.1 Steps to Deploy**
+1. **Create a Hugging Face Account**: [Sign Up](https://huggingface.co/join)
+2. **Create a New Space**: Select the `Gradio` or `Flask` template.
+3. **Push Code to Hugging Face**:
+   ```sh
+   git remote add origin https://huggingface.co/spaces/Subham629/news
+   git push origin main
+   ```
+4. **Run the Application**: Hugging Face will automatically build and deploy it.
+
+## 9. Conclusion
+This AI-powered application integrates web scraping, summarization, sentiment analysis, and text-to-speech conversion to deliver insights from news articles. Its deployment on Hugging Face Spaces ensures accessibility, while API functionalities allow for seamless integration with external platforms.
+
