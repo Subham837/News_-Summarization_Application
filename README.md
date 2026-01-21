@@ -1,5 +1,4 @@
 <p align="center">
-  <img src="banner.png" alt="Project Banner" width="90%">
 </p>
 
 <p align="center">
