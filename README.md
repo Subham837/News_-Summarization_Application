@@ -129,16 +129,21 @@ Structured for scalable real-world deployment.
 
 ---
 
-## 🔮 Future Enhancements
+## 🧪 Run Locally
 
-🔄 Multi-source news aggregation  
-🌍 Multilingual summarization  
-🧠 Topic-based clustering  
-📊 Sentiment analytics dashboard  
-🤖 Conversational news assistant  
+```bash
+# Clone the repository
+git clone https://github.com/Subham837/News_-Summarization_Application.git
 
+# Navigate to the project directory
+cd News_-Summarization_Application
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+streamlit run app.py
 ---
-
 ## 👤 Author
 
 <p align="center">
