@@ -1,6 +1,5 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red)
 ![NLP](https://img.shields.io/badge/AI-NLP%20%7C%20Transformers-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Status](https://img.shields.io/badge/Project-Production%20Ready-brightgreen)
 ![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange)
