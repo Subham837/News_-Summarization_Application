@@ -124,6 +124,7 @@ streamlit run app.py
 👨‍💻 Author
 
 Subham Pradhan
+
 Machine Learning & AI Enthusiast
 Focused on building real-world, scalable, and intelligent AI systems.
 
