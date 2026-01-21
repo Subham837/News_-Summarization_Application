@@ -1,139 +1,163 @@
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red)
-![NLP](https://img.shields.io/badge/AI-NLP%20%7C%20Transformers-green)
-![Status](https://img.shields.io/badge/Project-Production%20Ready-brightgreen)
-![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange)
+<p align="center">
+  <img src="banner.png" alt="Project Banner" width="90%">
+</p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue"/>
+  <img src="https://img.shields.io/badge/Framework-Streamlit-red"/>
+  <img src="https://img.shields.io/badge/AI-NLP%20%7C%20Transformers-green"/>
+  <img src="https://img.shields.io/badge/Project-Production%20Ready-brightgreen"/>
+  <img src="https://img.shields.io/badge/Contributions-Welcome-orange"/>
+</p>
 
-📰 AI News Summarization & Sentiment Analysis Application
+<h1 align="center">📰 AI News Summarization & Sentiment Analysis</h1>
+<p align="center"><i>Transform the way you consume news — faster insights, smarter understanding, zero information overload.</i></p>
 
-Transform the way you consume news — faster insights, smarter understanding, zero information overload.
+---
 
-🌟 Overview
+## 🌟 Project Significance — *Why This Matters*
 
-The AI News Summarization & Sentiment Analysis Application is an intelligent end-to-end system designed to automatically collect, analyze, and present news content in a concise and meaningful way.
+In today’s digital era, users face **information overload** due to continuous streams of unstructured news content. Reading full-length articles is time-consuming and inefficient.
 
-In an era of overwhelming digital information, this project uses advanced Natural Language Processing (NLP) and Transformer-based models to extract key insights from lengthy news articles, analyze their emotional tone, and even convert summaries into speech for enhanced accessibility.
+This project addresses that challenge by building an **end-to-end AI-driven news intelligence system** that:
+- Condenses lengthy articles into **clear, concise summaries**
+- Analyzes **emotional tone** to provide deeper insight
+- Converts summaries into **audio** for accessibility
+- Delivers results through a **clean, interactive interface**
 
-This application is ideal for students, researchers, professionals, and everyday users who want quick, reliable, and intelligent news consumption.
+👉 The system is designed for **real-world usage** and scalable deployment.
 
-🚀 Key Features
+---
 
-📰 Automated News Scraping
-Collects real-time news articles from online sources using web scraping techniques.
+## 🔬 Research Contribution & Novelty
 
-✂️ AI-Powered Text Summarization
-Generates concise and meaningful summaries from long news articles using transformer models.
+- ✅ End-to-end **NLP pipeline** (Scraping → Processing → Output)
+- ✅ Transformer-based **abstractive text summarization**
+- ✅ Context-aware **sentiment analysis**
+- ✅ Integrated **Text-to-Speech (TTS)** support
+- ✅ Production-ready design with modular architecture
 
-😊 Sentiment Analysis
-Detects emotional polarity (Positive / Neutral / Negative) to understand the tone of the news.
+> This project demonstrates how modern **NLP and Transformer models** can be applied to solve real-world information management problems efficiently.
 
-🔊 Text-to-Speech (TTS)
-Converts news summaries into natural-sounding speech for hands-free and accessible consumption.
+---
 
-🔍 Search & Query Support
-Allows users to search and filter news content by keywords or topics.
+## 🎯 Problem Statement
 
-🎨 User-Friendly Interface
-Clean and intuitive UI designed for smooth interaction and readability.
+Manual news consumption is:
+- ⏳ Time-intensive  
+- 🧠 Cognitively overwhelming  
+- ⚠️ Inefficient for trend analysis  
 
-☁️ Deployment Ready
-Structured for real-world deployment and scalability.
+### 🎯 Objective
+To build an intelligent system that enables:
+- Faster news understanding  
+- Context-aware sentiment insight  
+- Accessible, multi-modal consumption  
 
-🧠 System Architecture
+---
 
-News Collection Layer
+## 🚀 Key Features
 
-Scrapes live news articles from websites using BeautifulSoup.
+📰 **Automated News Scraping**  
+Collects real-time articles from online sources using BeautifulSoup.
 
-Processing Layer
+✂️ **AI-Powered Text Summarization**  
+Generates concise summaries using Transformer-based NLP models.
 
-Cleans and preprocesses raw text.
+😊 **Sentiment Analysis**  
+Classifies news sentiment as Positive, Neutral, or Negative.
 
-Applies transformer-based summarization models.
+🔊 **Text-to-Speech (TTS)**  
+Converts summaries into natural-sounding speech.
 
-Performs sentiment classification.
+🔍 **Search & Query Support**  
+Enables keyword-based exploration of news content.
 
-Output Layer
+🎨 **User-Friendly Interface**  
+Minimal and intuitive UI built using Streamlit.
 
-Displays summarized insights.
+☁️ **Deployment Ready**  
+Structured for scalable real-world deployment.
 
-Converts text summaries into speech.
+---
 
-Enables user interaction through an intuitive UI.
+## 🧠 System Architecture
 
-🛠️ Tech Stack
-Category	Technologies Used
-Programming Language	Python
-Web Scraping	BeautifulSoup
-NLP & AI	Hugging Face Transformers
-Sentiment Analysis	Transformer-based classifiers
-Text-to-Speech	gTTS / TTS Models
-Frontend	Streamlit
-Backend	Python
-Deployment	Hugging Face Spaces / Local
-🎯 Use Cases
+**1️⃣ News Collection Layer**  
+- Web scraping using BeautifulSoup
 
-📚 Academic research and news analysis
+**2️⃣ Processing Layer**  
+- Text preprocessing  
+- Transformer-based summarization  
+- Sentiment classification  
 
-🧑‍💼 Professionals tracking industry trends
+**3️⃣ Output Layer**  
+- Summarized insights  
+- Audio generation  
+- Interactive UI  
 
-🗞️ Journalists & content creators
+---
 
-🎧 Users preferring audio-based news consumption
+## 🛠️ Tech Stack
 
-🤖 AI & NLP learning projects
+- **Programming Language:** Python  
+- **Frontend:** Streamlit  
+- **Web Scraping:** BeautifulSoup  
+- **NLP Models:** Hugging Face Transformers  
+- **Sentiment Analysis:** Transformer-based classifiers  
+- **Text-to-Speech:** gTTS / TTS Models  
+- **Deployment:** Hugging Face Spaces / Local  
 
-📈 Project Highlights
+---
 
-End-to-end AI pipeline (Scraping → NLP → Output)
+## 🎯 Use Cases
 
-Real-world problem solving using NLP
+📚 Academic research & analysis  
+🧑‍💼 Professionals tracking industry trends  
+🗞️ Journalists & content creators  
+🎧 Audio-based news consumption  
+🤖 NLP & AI learning projects  
 
-Clean modular codebase
+---
 
-Scalable and deployment-ready design
+## 📈 Project Highlights
 
-Ideal industry-level project for resumes and interviews
+✔ Complete end-to-end NLP workflow  
+✔ Solves a real-world information overload problem  
+✔ Modular, scalable codebase  
+✔ Production-ready architecture  
+✔ Strong portfolio project for interviews  
 
-🧪 How to Run Locally
-# Clone the repository
-git clone https://github.com/Subham837/News_-Summarization_Application.git
+---
 
-# Navigate to project directory
-cd News_-Summarization_Application
+## 🔮 Future Enhancements
 
-# Install dependencies
-pip install -r requirements.txt
+🔄 Multi-source news aggregation  
+🌍 Multilingual summarization  
+🧠 Topic-based clustering  
+📊 Sentiment analytics dashboard  
+🤖 Conversational news assistant  
 
-# Run the application
-streamlit run app.py
+---
 
-🔮 Future Enhancements
+## 👤 Author
 
-🔄 Multi-source news aggregation
+<p align="center">
+  <b>Subham Pradhan</b><br>
+  B.Tech in Computer Science & Engineering<br>
+  <i>Machine Learning | NLP | AI Systems</i>
+</p>
 
-🌍 Multilingual news summarization
+---
 
-🧠 Topic-wise clustering of news
+## ⭐ Acknowledgment
 
-📊 Analytics dashboard for sentiment trends
+Inspired by advances in **Natural Language Processing** and **Transformer architectures** for large-scale text understanding.
 
-🤖 Conversational news query assistant
+---
 
-👨‍💻 Author
+## 🚀 Final Note for Recruiters
 
-Subham Pradhan
+> This project reflects strong skills in **NLP pipeline design**, **Transformer-based modeling**, and **production-oriented AI application development**.
 
-Machine Learning & AI Enthusiast
-Focused on building real-world, scalable, and intelligent AI systems.
-
-⭐ Support
-
-If you find this project useful or inspiring:
-
-⭐ Star the repository
-
-🍴 Fork it
-
-🧑‍💻 Contribute improvements
+⭐ *If you find this project useful, please consider starring the repository!*
